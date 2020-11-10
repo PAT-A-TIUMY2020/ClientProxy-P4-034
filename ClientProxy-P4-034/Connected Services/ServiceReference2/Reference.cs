@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ClientProxy_P4_034.ServiceReference1 {
+namespace ClientProxy_P4_034.ServiceReference2 {
     using System.Runtime.Serialization;
     using System;
     
@@ -136,52 +136,52 @@ namespace ClientProxy_P4_034.ServiceReference1 {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IMatematika")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference2.IMatematika")]
     public interface IMatematika {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMatematika/Tambah", ReplyAction="http://tempuri.org/IMatematika/TambahResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(ClientProxy_P4_034.ServiceReference1.MathFault), Action="http://tempuri.org/IMatematika/TambahMathFaultFault", Name="MathFault", Namespace="http://schemas.datacontract.org/2004/07/ServiceMtk_P1_20180140034")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ClientProxy_P4_034.ServiceReference2.MathFault), Action="http://tempuri.org/IMatematika/TambahMathFaultFault", Name="MathFault", Namespace="http://schemas.datacontract.org/2004/07/ServiceMtk_P1_20180140034")]
         int Tambah(int a, int b);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMatematika/Tambah", ReplyAction="http://tempuri.org/IMatematika/TambahResponse")]
         System.Threading.Tasks.Task<int> TambahAsync(int a, int b);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMatematika/Kurang", ReplyAction="http://tempuri.org/IMatematika/KurangResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(ClientProxy_P4_034.ServiceReference1.MathFault), Action="http://tempuri.org/IMatematika/KurangMathFaultFault", Name="MathFault", Namespace="http://schemas.datacontract.org/2004/07/ServiceMtk_P1_20180140034")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ClientProxy_P4_034.ServiceReference2.MathFault), Action="http://tempuri.org/IMatematika/KurangMathFaultFault", Name="MathFault", Namespace="http://schemas.datacontract.org/2004/07/ServiceMtk_P1_20180140034")]
         int Kurang(int a, int b);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMatematika/Kurang", ReplyAction="http://tempuri.org/IMatematika/KurangResponse")]
         System.Threading.Tasks.Task<int> KurangAsync(int a, int b);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMatematika/Kali", ReplyAction="http://tempuri.org/IMatematika/KaliResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(ClientProxy_P4_034.ServiceReference1.MathFault), Action="http://tempuri.org/IMatematika/KaliMathFaultFault", Name="MathFault", Namespace="http://schemas.datacontract.org/2004/07/ServiceMtk_P1_20180140034")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ClientProxy_P4_034.ServiceReference2.MathFault), Action="http://tempuri.org/IMatematika/KaliMathFaultFault", Name="MathFault", Namespace="http://schemas.datacontract.org/2004/07/ServiceMtk_P1_20180140034")]
         int Kali(int a, int b);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMatematika/Kali", ReplyAction="http://tempuri.org/IMatematika/KaliResponse")]
         System.Threading.Tasks.Task<int> KaliAsync(int a, int b);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMatematika/Bagi", ReplyAction="http://tempuri.org/IMatematika/BagiResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(ClientProxy_P4_034.ServiceReference1.MathFault), Action="http://tempuri.org/IMatematika/BagiMathFaultFault", Name="MathFault", Namespace="http://schemas.datacontract.org/2004/07/ServiceMtk_P1_20180140034")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ClientProxy_P4_034.ServiceReference2.MathFault), Action="http://tempuri.org/IMatematika/BagiMathFaultFault", Name="MathFault", Namespace="http://schemas.datacontract.org/2004/07/ServiceMtk_P1_20180140034")]
         int Bagi(int a, int b);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMatematika/Bagi", ReplyAction="http://tempuri.org/IMatematika/BagiResponse")]
         System.Threading.Tasks.Task<int> BagiAsync(int a, int b);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMatematika/TKoordinat", ReplyAction="http://tempuri.org/IMatematika/TKoordinatResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(ClientProxy_P4_034.ServiceReference1.MathFault), Action="http://tempuri.org/IMatematika/TKoordinatMathFaultFault", Name="MathFault", Namespace="http://schemas.datacontract.org/2004/07/ServiceMtk_P1_20180140034")]
-        ClientProxy_P4_034.ServiceReference1.Koordinat TKoordinat(ClientProxy_P4_034.ServiceReference1.Koordinat a, ClientProxy_P4_034.ServiceReference1.Koordinat b);
+        [System.ServiceModel.FaultContractAttribute(typeof(ClientProxy_P4_034.ServiceReference2.MathFault), Action="http://tempuri.org/IMatematika/TKoordinatMathFaultFault", Name="MathFault", Namespace="http://schemas.datacontract.org/2004/07/ServiceMtk_P1_20180140034")]
+        ClientProxy_P4_034.ServiceReference2.Koordinat TKoordinat(ClientProxy_P4_034.ServiceReference2.Koordinat a, ClientProxy_P4_034.ServiceReference2.Koordinat b);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMatematika/TKoordinat", ReplyAction="http://tempuri.org/IMatematika/TKoordinatResponse")]
-        System.Threading.Tasks.Task<ClientProxy_P4_034.ServiceReference1.Koordinat> TKoordinatAsync(ClientProxy_P4_034.ServiceReference1.Koordinat a, ClientProxy_P4_034.ServiceReference1.Koordinat b);
+        System.Threading.Tasks.Task<ClientProxy_P4_034.ServiceReference2.Koordinat> TKoordinatAsync(ClientProxy_P4_034.ServiceReference2.Koordinat a, ClientProxy_P4_034.ServiceReference2.Koordinat b);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IMatematikaChannel : ClientProxy_P4_034.ServiceReference1.IMatematika, System.ServiceModel.IClientChannel {
+    public interface IMatematikaChannel : ClientProxy_P4_034.ServiceReference2.IMatematika, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class MatematikaClient : System.ServiceModel.ClientBase<ClientProxy_P4_034.ServiceReference1.IMatematika>, ClientProxy_P4_034.ServiceReference1.IMatematika {
+    public partial class MatematikaClient : System.ServiceModel.ClientBase<ClientProxy_P4_034.ServiceReference2.IMatematika>, ClientProxy_P4_034.ServiceReference2.IMatematika {
         
         public MatematikaClient() {
         }
@@ -234,11 +234,11 @@ namespace ClientProxy_P4_034.ServiceReference1 {
             return base.Channel.BagiAsync(a, b);
         }
         
-        public ClientProxy_P4_034.ServiceReference1.Koordinat TKoordinat(ClientProxy_P4_034.ServiceReference1.Koordinat a, ClientProxy_P4_034.ServiceReference1.Koordinat b) {
+        public ClientProxy_P4_034.ServiceReference2.Koordinat TKoordinat(ClientProxy_P4_034.ServiceReference2.Koordinat a, ClientProxy_P4_034.ServiceReference2.Koordinat b) {
             return base.Channel.TKoordinat(a, b);
         }
         
-        public System.Threading.Tasks.Task<ClientProxy_P4_034.ServiceReference1.Koordinat> TKoordinatAsync(ClientProxy_P4_034.ServiceReference1.Koordinat a, ClientProxy_P4_034.ServiceReference1.Koordinat b) {
+        public System.Threading.Tasks.Task<ClientProxy_P4_034.ServiceReference2.Koordinat> TKoordinatAsync(ClientProxy_P4_034.ServiceReference2.Koordinat a, ClientProxy_P4_034.ServiceReference2.Koordinat b) {
             return base.Channel.TKoordinatAsync(a, b);
         }
     }
